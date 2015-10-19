@@ -1,0 +1,6 @@
+H:\Kodove\Homework2\Homework2\bin\Debug\Homework2.exe.config
+H:\Kodove\Homework2\Homework2\bin\Debug\Homework2.exe
+H:\Kodove\Homework2\Homework2\bin\Debug\Homework2.pdb
+H:\Kodove\Homework2\Homework2\obj\Debug\Homework2.csprojResolveAssemblyReference.cache
+H:\Kodove\Homework2\Homework2\obj\Debug\Homework2.exe
+H:\Kodove\Homework2\Homework2\obj\Debug\Homework2.pdb
