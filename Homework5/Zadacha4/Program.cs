@@ -10,16 +10,22 @@ namespace Zadacha4
     {
         static void Main(string[] args)
         {
-
-            /*    do
-                 {
-                     int k = int.Parse(Console.ReadLine());
-                     int n = int.Parse(Console.ReadLine());
-                 } while (1<k && k<n);
-      */
-            int n = int.Parse(Console.ReadLine());
-            int k = int.Parse(Console.ReadLine());
-            int nfakt=1, kfakt=1;
+            /*
+            bool first, second;
+            int n, k;
+            do
+            {
+                Console.WriteLine("Vuvedete N :");
+                n = int.Parse(Console.ReadLine());
+                Console.WriteLine("Vuvedete K :");
+                k = int.Parse(Console.ReadLine());
+                first = k > 1;
+                second = n > k;
+            } while (first == true && second == true);
+            */
+             int n = int.Parse(Console.ReadLine());
+             int k = int.Parse(Console.ReadLine());
+            int nfakt = 1, kfakt = 1;
             double result;
             for (int i = 1; i < n; i++)
 
