@@ -43,7 +43,10 @@ namespace Kontrolno
             }
             Console.WriteLine("Sumata na masiva e: "+sum);
 
-
+            for (int i = 0; i < b; i++)
+            {
+                Console.Write(masiv1[i]);
+            }
 
         }
     }
