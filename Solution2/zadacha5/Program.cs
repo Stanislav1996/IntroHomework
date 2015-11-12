@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Zadacha4
+namespace zadacha5
 {
     class Program
     {
@@ -17,18 +17,19 @@ namespace Zadacha4
 
                 masiv1[i] = int.Parse(Console.ReadLine());
             }
-            Console.WriteLine("Vuvedete chislo koeto tursime: ");
-            int b = int.Parse(Console.ReadLine());
             for (int i = 0; i < a; i++)
             {
-
-
-                if (masiv1[i]==b)
+                if (masiv1[i]>masiv1[i+1])
                 {
-                    Console.WriteLine("Indeksa na chisloto e :"+i);
-                    break;
+                    i++; 
                 }
+                
             }
+            foreach (var item in masiv1)
+            {
+                Console.WriteLine(item);
+            }
+
         }
     }
 }
